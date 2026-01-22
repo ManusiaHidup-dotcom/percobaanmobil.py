@@ -8,7 +8,7 @@ st.set_page_config(page_title="Display Gambar Evo 6", layout="centered")
 st.title("Mitsubishi Lancer Evolution VI Rally")
 
 # Opsi 1: Jika gambar ada di URL GitHub (Raw)
-url = "https://raw.githubusercontent.com/USER_ANDA/REPO_ANDA/main/testevo6.png"
+url = "https://github.com/ManusiaHidup-dotcom/percobaanmobil.py/blob/main/testevo6.png"
 
 try:
     response = requests.get(url)
